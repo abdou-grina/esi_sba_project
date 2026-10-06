@@ -1,0 +1,22 @@
+.courses-page {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    overflow-y: auto;         /* the page scrolls, not individual cards */
+    font-family: 'cairo';
+    direction: rtl;            /* Arabic layout */
+}
+
+.courses-title {
+    margin: 0 0 25px 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1564BF;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 30px;
+    align-items: start;        /* cards align at top, don't stretch to match tallest */
+}

@@ -1,0 +1,116 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    width: 94.75%;
+
+    font-family: 'cairo';
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0px 50px 0px 50px;
+}
+
+.header .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
+    margin-left: auto;
+}
+
+.header .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    margin: 0px 10.3% 0px  0px;
+    
+}
+
+.header .input-container {
+    width: 400px;
+    height: 50px;
+}
+.header .input-wrapper {
+    border-radius: 10px;
+    border: 0;
+    background-color: #E2E8F0;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.header .streak {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 77px;
+    border-radius: 100px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #E0F2FE;
+    padding: 0;
+    
+}
+
+.header .streak span {
+    font-size: 30px;    
+    font-weight: 600;
+    color: #F59E0B;
+    font-family: 'cairo';
+    margin-left: 5px;
+}
+.header .night-mode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #E0F2FE;
+    padding: 0;
+    
+}
+.header .notifications {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #E0F2FE;
+    padding: 0;
+    
+}
+.header .notifications img{
+    width: 25px;
+    height: 25px;
+}
+.header .logout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 155px;
+    border-radius: 30px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #E0F2FE;
+    padding: 0;
+    border: none;
+    font-family: 'cairo';
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+

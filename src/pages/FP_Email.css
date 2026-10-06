@@ -1,0 +1,80 @@
+
+.fp-email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.fp-email-frame {
+    width: 700px;
+    height: 500px;
+    border: 2.5px solid #18115E;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+    background-color: #F8FAFC;
+    border-radius: 50px 50px 0px 50px;
+    overflow: hidden;
+}
+.fp-email-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    background-color:#18115E;
+    border-radius: 30px 0px 0px 30px;
+}
+.fp-email-design h1 {
+    margin: 0px;
+    font-family: 'cairo';
+    color: white;
+    font-size: 45px;
+    font-weight: 1000;
+
+}
+.mthimg {
+    margin-top: 10px;
+}
+.lined{
+    width: 291px;
+    height: 1px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 200px;
+}
+.fp-email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    width: 50%;
+    background-color: white;
+    border-radius: 50px 0px 0px 50px;
+}
+.fp-email-form h1 {
+    margin: 0px 0px 20px 0px;
+    font-family: 'cairo';
+    color: #0F172A;
+    font-size: 45px;
+    font-weight: 1000;
+
+}
+.fp-email-form button {
+    width: 325px;
+    height: 45px;
+    margin-top: 30px;
+}
+
+.lined{
+    width: 291px;
+    height: 1px;
+    background-color: #18115E;
+    margin-top: 15px;
+    border-radius: 200px;
+}
+

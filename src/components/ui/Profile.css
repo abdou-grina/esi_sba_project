@@ -1,0 +1,31 @@
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.avatar-fallback {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #22D3EE;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Cairo';
+}
+.profile-name {
+    font-weight: 500;
+    font-size: 20px;
+    color: #0F172A;
+}

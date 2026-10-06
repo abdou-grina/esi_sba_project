@@ -1,0 +1,171 @@
+.course-card{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 30px;
+    font-family: 'cairo';
+    background-color: transparent;
+    min-height: 0;
+    gap: 8px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: linear-gradient(-180deg, #056EEB 0%, #9EC5F4 100%);
+    color: white;
+    overflow: hidden;
+    min-height: 0;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    min-width: 0;
+}
+
+.right h2{
+    margin: 0;
+}
+
+.title img{
+    align-self: center;
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.details{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 30px 30px;
+    border: 1.5px solid #1564BF;
+    border-top: 0px;
+    overflow: hidden;
+    min-height: 0;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+    color: #475569;
+    min-height: 0;
+}
+
+.label{
+    font-family: 'cairo';
+    font-weight: 600;
+    color: #475569;
+}
+
+.progress-bar{
+    align-self: center;
+    width: 92%;
+    height: 10px;
+    background-color: #E2E8F0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress{
+    height: 100%;
+    background-color: #056EEB;
+    border-radius: 10px;
+}
+
+.start{
+    width: 100%;
+    background-color: #056EEB;
+    color: white;
+    font-weight: bold;
+    font-family: 'cairo';
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.start:hover{
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.chapters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    padding: 8px;
+    overflow: hidden;
+    min-height: 0;
+}
+
+.chapter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #9EC5F4 0%, #056EEB 100%);
+    border-radius: 25px;
+    font-family: 'cairo';
+    color: white;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex: 0 0 auto;
+}
+.chapter:hover{
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.course-card--compact{
+    height: 100%;
+}
+
+.course-card--compact .title    { flex: 1.5 1 0; padding: clamp(6px, 1vh, 12px) 30px; }
+.course-card--compact .right h2 { font-size: clamp(18px, 3vh, 36px); }
+
+.course-card--compact .details  { flex: 5 1 0; gap: clamp(6px, 1.2vh, 12px); padding: clamp(12px, 2vh, 20px) 30px; }
+.course-card--compact .info     { flex: 2 1 0; font-size: clamp(12px, 1.8vh, 16px); }
+.course-card--compact .label    { flex: 0 0 auto; font-size: clamp(14px, 2vh, 20px); }
+.course-card--compact .progress-bar { flex: 0 0 auto; margin-bottom: clamp(6px, 1vh, 15px); }
+.course-card--compact .start    { flex: 1.5 1 0; min-height: 45px; font-size: clamp(18px, 2.8vh, 28px); }
+
+.course-card--compact .chapters { flex: 1.5 1 0; }
+.course-card--compact .chapter  {
+    width: clamp(40px, 8vh, 75px);
+    height: clamp(40px, 8vh, 75px);
+    font-size: clamp(8px, 1vh, 10px);
+}
+
+.course-card--full{
+    width: 100%;
+    /* no height: 100% — card sizes to its content */
+}
+
+.course-card--full .title       { padding: 15px 30px; }
+.course-card--full .right h2    { font-size: 32px; }
+
+.course-card--full .details     { gap: 12px; padding: 20px 30px; }
+.course-card--full .info        { font-size: 15px; }
+.course-card--full .label       { font-size: 20px; }
+.course-card--full .progress-bar{ margin-bottom: 20px; }
+.course-card--full .start       { height: 70px; font-size: 26px; }
+
+.course-card--full .chapters    { padding: 15px; flex-wrap: wrap; }
+.course-card--full .chapter     {
+    width: 90px;
+    height: 90px;
+    font-size: 11px;
+}

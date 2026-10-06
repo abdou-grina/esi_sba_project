@@ -1,0 +1,74 @@
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 5px 40px 20px;
+    border:1.5px solid #056EEB;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    font-family: 'cairo';
+    overflow: auto;
+    border: 1px solid #ccc;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 35px;
+}
+.right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 25px;
+}
+.left {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    font-size: 13px;
+    color: #475569;
+}
+.progress-line {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.coursetitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.miniInfos{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 12px;
+}
+.miniInfos span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.empty{
+    align-self: center;
+    width: 98%;
+    height: 10px;
+    background-color: #E2E8F0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 25px;
+}
+.progress{
+    height: 100%;
+    background-color: #056EEB;
+    border-radius: 10px;
+}
